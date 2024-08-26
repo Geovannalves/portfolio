@@ -1,0 +1,42 @@
+#about{
+    position: fixed;
+    top: 250px; /* Distância do topo da tela */
+    left: 150px; /* Distância da esquerda da tela */
+}
+
+.icon-container {
+    display: flex;
+    margin-left: 275px;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 20px; /* Espaço entre os ícones */
+    flex-wrap: wrap; /* Permite que os ícones se movam para a linha seguinte se não houver espaço suficiente */
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #dd29a138; /* Cor de fundo dos blocos de ícones */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: inherit; /* Mantém a cor original do texto e ícone */
+}
+
+.icon i {
+    font-size: 24px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.icon span {
+    font-size: 16px; /* Tamanho do texto */
+}
+
+.logo{
+    width: 80px; /* Define a largura da imagem */
+    height: 80px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorcer */
+    display: block; /* Remove espaço em branco ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}

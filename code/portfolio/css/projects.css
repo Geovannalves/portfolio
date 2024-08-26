@@ -1,0 +1,38 @@
+#projects{
+    position: absolute;
+    top: 200px; /* Distância do topo da tela */
+    left: 80px; /* Distância da esquerda da tela */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    color: black;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os projetos */
+    justify-content: space-around; /* Distribui o espaço de forma uniforme entre os projetos */
+    flex-wrap: wrap; /* Permite que os projetos quebrem para a linha abaixo em telas menores */
+    margin: 20px auto; /* Centraliza o contêiner na página */
+}
+
+.project {
+    width: 300px; /* Define a largura de cada contêiner de projeto */
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+
+.imagem-projeto {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 10px; /* Espaçamento entre o link e a imagem */
+}
+
+.logo{
+    width: 80px; /* Define a largura da imagem */
+    height: 80px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorcer */
+    display: block; /* Remove espaço em branco ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}

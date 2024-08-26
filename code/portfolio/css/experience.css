@@ -1,0 +1,19 @@
+#experience {
+    position: absolute;
+    top: 250px; /* Distância do topo da tela */
+    left: 150px; /* Distância da esquerda da tela */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    color: black;
+}
+
+.logo{
+    width: 80px; /* Define a largura da imagem */
+    height: 80px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorcer */
+    display: block; /* Remove espaço em branco ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}

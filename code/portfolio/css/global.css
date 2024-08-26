@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Playfair Display";
+    src: url('../assets/fonts/PlayfairDisplay.ttf');
+}
+
+body{
+    width: 100dvw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main{
+    height: 90dvh;
+    flex: 1;
+}
+
+.rowElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

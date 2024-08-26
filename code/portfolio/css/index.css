@@ -1,0 +1,84 @@
+#about,
+.divisorIcons {
+    display: flex;
+    flex-direction: row;
+}
+
+#about,
+.resumeProfile,
+.textAbout {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.resumeProfile,
+.textAbout {
+    width: 40%;
+    height: 80%;
+    margin: 12px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divisorIcons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.divisorIcons a {
+    color: black;
+    margin: 5px;
+}
+
+
+.resumeProfile h1 {
+    text-align: left;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.resumeProfile h2 {
+    font-family: Montserrat;
+}
+
+
+.foto-conteiner img {
+    position:relative;
+    left: -45px;
+    width: 200px;     /* Define a largura da imagem */
+    height: 200px;    /* Define a altura da imagem */
+    border-radius: 50%;  /* Faz a imagem ficar circular */
+    object-fit: cover;  /* Ajusta a imagem dentro do contêiner, cobrindo totalmente o contêiner */
+    
+}
+
+
+.foto-conteiner p {
+    position: relative;
+    font-family: "Playfair Display";
+    font-size: 16px; /* Define o tamanho da fonte do texto */
+    color: #333; /* Define a cor do texto */
+    margin-right: 750px;
+}
+
+.paragrafo-resumo p{
+    position: absolute;
+    font-family: "Playfair Display";
+    font-size: 16px; /* Define o tamanho da fonte do texto */
+    color: #333; /* Define a cor do texto */
+    margin-left: -670px;
+    bottom: 360px;
+}
+
+.logo{
+    width: 80px; /* Define a largura da imagem */
+    height: 80px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorcer */
+    display: block; /* Remove espaço em branco ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
